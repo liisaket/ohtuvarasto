@@ -77,5 +77,5 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(kaikki_mita_voidaan, 5)
 
     def test_str(self):
-        str_lause = testi rikki
+        str_lause = str(self.varasto)
         self.assertEqual(str_lause, "saldo = 0, vielä tilaa 10")
